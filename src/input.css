@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.s6card{
+    box-shadow: 0 0 4px rgba(49, 47, 47, 0.708) ;
+    border-radius: .4rem;
+}
+
+
+ .menu-list{
+    height: 35rem;
+    transform: translateX(105%);
+    transition: all .3s ease-in;
+    
+    }
+    .menu-list.show{
+    transform: translate(0);
+    }
+
+
+@media  screen and (min-width:1026px) {
+    .menu-list.show{
+        display: none;
+        transform: translateX(105%);
+    }
+    
+}
+

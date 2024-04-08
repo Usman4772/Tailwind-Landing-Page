@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+ <header class="w-screen h-12 bg-custom-white text-black flex justify-between px-10 items-center fixed top-0">
+<div class="logo w-28">
+    <img src="/src/Images/logo.png" alt="">
+</div>
+<div class="menu lg:hidden"><i class="fa-solid fa-bars"></i></div>
+<div class="menu-list w-72  flex justify-center items-center flex-col gap-8 text-xl bg-custom-black text-white z-10 fixed top-10 right-4 translate-x-80 rounded md:w-96 " >
+    <h3 class="cursor-pointer">Home</h3>
+    <h3 class="cursor-pointer">Services</h3>
+    <h3 class="cursor-pointer">Features</h3>
+    <h3 class="cursor-pointer">Products</h3>
+    <h3 class="cursor-pointer">Testimonial</h3>
+    <h3 class="cursor-pointer">FAQ</h3>
+    <div class="flex gap-4">
+        <button class=" bg-slate-50 w-28 text-2xl md:text-xl flex justify-center items-center md:w-24  cursor-pointer h-10 px-3 py-2  text-custom-green rounded transition-all duration-200 ease-in-out hover:bg-custom-green hover:text-custom-white">Login</button>
+        <button class="bg-custom-green w-28 text-2xl md:text-xl flex justify-center items-center md:w-24  cursor-pointer h-10 px-3 py-2  text-custom-white rounded transition-all duration-200 ease-in-out hover:bg-custom-white hover:text-custom-green">Sign up</button>
+    </div>
+</div>
+<div class="tabs  gap-7 hidden  lg:flex ">
+    <h3 class="cursor-pointer">Home</h3>
+    <h3 class="cursor-pointer">Services</h3>
+    <h3 class="cursor-pointer">Features</h3>
+    <h3 class="cursor-pointer">Products</h3>
+    <h3 class="cursor-pointer">Testimonial</h3>
+    <h3 class="cursor-pointer">FAQ</h3>
+</div>
+<div class="registration-buttons hidden gap-4 lg:flex">
+    <button class=" bg-slate-50 flex justify-center items-center w-24  cursor-pointer h-9 px-3 py-2  text-custom-green rounded transition-all duration-200 ease-in-out hover:bg-custom-green hover:text-custom-white">Login</button>
+    <button class="bg-custom-green flex justify-center items-center w-24  cursor-pointer h-9 px-3 py-2  text-custom-white rounded transition-all duration-200 ease-in-out hover:bg-custom-white hover:text-custom-green">Sign up</button>
+</div>
+</header>
+<section class="section1 flex flex-col gap-4 w-screen h-screen justify-center items-center px-10 bg-custom-white md:flex-row md:gap-60">
+    <div class="section1-text flex flex-col gap-7 ">
+        <h3 class="text-5xl font-semibold text-custom-black ">Lessons and insights <br><span class="text-custom-green"> from 8 years</span></h3>
+        <p class="text-gray-500 text-sm">Where to grow your busines as a photographer. site or social media?</p>
+        <button class="register-btn w-24 flex items-center justify-center cursor-pointer h-9 px-3 py-2 bg-custom-green text-white rounded">Register</button>
+    </div>
+
+        <img src="/src/Images/desktop.png" class="w-52 h-52 object-cover" alt="">
+
+   
+</section>
+
+<section class="section2 w-screen flex flex-col justify-start items-center  py-4 px-10 gap-6">
+    <div class="flex flex-col gap-3">
+    <h2 class="w-full text-center text-custom-black text-3xl font-semibold">Our Clients</h2>
+    <p class="text-gray-500 text-sm">We have been working with some Fortune 500+ clients</p>
+</div>
+    <img class="w-3/4 h-8 object-cover" src="/src/Images/Clients Logos.png" alt="">
+    <div class="flex flex-col gap-3">
+    <h2 class="text-custom-black text-2xl font-semibold w-full text-center mt-5">Manage your entire community <br>in a single system </h2>
+    <p class="w-full text-center text-gray-500 text-sm">who is nextcent suitable for?</p>
+</div>
+<!-- cards -->
+<div class="s2-cards flex-col w-full flex justify-center items-center gap-16 md:flex-row " >
+    <div class="flex flex-col justify-center items-center w-64">
+        <img src="/src/Images/icon1.png"  class="w-8 h-8 object-cover" alt="">
+        <h2 class="text-xl text-custom-black font-semibold w-full text-center">Membership <br>Organizations</h2>
+        <p class="text-sm text-gray-500 w-full text-center">Our membership managment <br>software provides full automation of <br>membership renewals and payments</p>
+    </div>
+    <div class="flex flex-col justify-center items-center w-64">
+        <img src="/src/Images/icon2.png"  class="w-8 h-8 object-cover" alt="">
+        <h2 class="text-xl text-custom-black font-semibold w-full text-center">National <br>Association</h2>
+        <p class="text-sm text-gray-500 w-full text-center">Our membership management <br> software provides full automation <br> of membership renewals and <br> payments</p>
+    </div>
+    <div class="flex flex-col justify-center items-center w-64">
+        <img src="/src/Images/icon3.png"  class="w-8 h-8 object-cover" alt="">
+        <h2 class="text-xl text-custom-black font-semibold w-full text-center">Clubs And <br>Groups</h2>
+        <p class="text-sm text-gray-500 w-full text-center">Our membership management <br> software provides full automation <br> of membership renewals and payments</p>
+    </div>
+   
+
+</div>
+<!--pixelgrade  -->
+<div class="pixelgrade flex-col md:flex-row gap-4 flex justify-center items-center md:gap-16 w-screen mt-12">
+    <img src="/src/Images/login.png" class="w-60" alt="">
+
+    <div class="pixelgrade-text w-full md:w-2/5 items-center md:items-start px-4 py-0  flex flex-col gap-2  md:py-4 justify-center">
+        <h2 class="text-2xl w-full text-center md:text-start text-custom-black font-semibold">The unseen of spending three <br> years at Pixelgrade</h2>
+        <p class="text-sm text-gray-500 w-full text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.  reiciendis eum! Similique autem sequi iusto minus doloribus, praesentium saepe repellat at natus nostrum esse non earum aperiam hic accusantium corporis quam ad enim optio laborum, qui unde doloremque! Minima, id nisi? Excepturi minus similique temporibus ?</p>
+        <button class="register-btn w-28 text-sm flex items-center justify-center cursor-pointer h-9 px-3 py-2 bg-custom-green text-white rounded">Learn More</button>
+    </div>
+</div>
+</section>
+<!-- Helping Local -->
+<section class="section3 flex-col items-center gap-4 w-screen flex justify-around  mt-8 py-4 bg-custom-white md:flex-row">
+    <div>
+        <h2 class="text-xl w-full text-center text-custom-black font-semibold md:text-start">Helping a local <br><span class="text-custom-green">business reinvent itself</span></h2>
+        <p class="text-sm text-gray-500">We reached here with our hard work and dedicaiton</p>
+    </div>
+    <div class="flex justify-center items-center flex-col gap-8">
+        <div class="flex justify-center gap-8 items-center">
+            <div  class="flex justify-center gap-4 items-center">
+                <img src="/src/Images/icon4.png"  class="w-8" alt="">
+                <div>
+                    <h2 class="text-custom-black text-xl font-semibold">2,245,341</h2>
+                    <p class="text-sm text-gray-500">Members</p>
+                </div>
+            </div>
+            <div  class="flex justify-center gap-4 items-center">
+                <img src="/src/Images/icon7.png"  class="w-8" alt="">
+                <div>
+                    <h2 class="text-custom-black text-xl font-semibold">46,328</h2>
+                    <p class="text-sm text-gray-500">Clubs</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="flex justify-center gap-8 items-center">
+            <div  class="flex justify-center gap-4 items-center">
+                <img src="/src/Images/icon5.png"  class="w-8" alt="">
+                <div>
+                    <h2 class="text-custom-black text-xl font-semibold">828,867</h2>
+                    <p class="text-sm text-gray-500">Event Booking</p>
+                </div>
+            </div>
+            <div  class="flex justify-center gap-4 items-center">
+                <img src="/src/Images/icon6.png"  class="w-8" alt="">
+                <div>
+                    <h2 class="text-custom-black text-xl font-semibold">1,926,436</h2>
+                    <p class="text-sm text-gray-500">Payments</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- section 4 -->
+<section class="section4  flex flex-col gap-4 px-4 justify-center items-center  w-screen md:flex-row md:gap-28 py-12 md:px-20">
+
+    <img src="/src/Images/mobile.png" class="w-52" alt="">
+
+
+   <div class="section4-text items-center w-full md:w-2/5  md:text-start flex flex-col gap-2  py-4 justify-center">
+    <h2 class="text-2xl text-custom-black font-semibold">How to desing your site footer like <br>we did</h2>
+    <p class="text-sm text-gray-500 w-full text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.  reiciendis eum! Similique autem sequi iusto minus doloribus, praesentium saepe repellat at natus nostrum esse non earum aperiam hic accusantium corporis quam ad enim optio laborum, qui unde doloremque! Minima, id nisi? Excepturi minus similique temporibus ?</p>
+    <button class="register-btn w-28 text-sm flex items-center justify-center cursor-pointer h-9 px-3 py-2 bg-custom-green text-white rounded">Learn More</button>
+</div>
+
+</section>
+
+
+<!-- section 5 -->
+<section class="section5 flex flex-col gap-4 px-4 justify-center items-center  w-screen py-8 bg-custom-white md:gap-8  md:px-20 lg:flex-row ">
+    <img src="/src/Images/tesla.png" class="w-48" alt="">
+    <div class="section5-text flex w-full  items-center justify-center md:items-start flex-col md:w-3/5 px-12">
+        <p class="section5-p1 w-100vw px-4 py-0  text-start text-sm text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt soluta tenetur unde sequi, culpa doloremque, voluptatibus laudantium animi tempore delectus quo quisquam quas omnis molestias quae aliquid quis quos eius! Doloremque placeat nihil totam quos, explicabo, hic corporis sunt aut debitis perspiciatis numquam accusantium consequatur dolorum obcaecati nemo ex ut dicta officia ipsa mollitia beatae. Dignissimos perspiciatis enim quaerat sapiente?</p>
+        <h3 class="text-xl text-custom-green font-semibold py-2">Tim Smith</h3>
+        <p class="w-full text-start text-sm text-gray-500">British Dragon Boat Racing Associatoin</p>
+        <div class="meet-all-container  flex flex-col md:flex-row justify-between py-4 items-center gap-4 w-full">
+            <img src="/src/Images/Frame 10.png" class="w-80" alt="">
+            <h2 class="text-custom-green cursor-pointer">Meet all customers →</h2>
+        </div>
+    
+    </div>
+    </section>
+
+<!-- Section 6 -->
+<section class="section6 flex flex-col justify-center items-center py-8 w-screen gap-2 pb-28">
+    <h2 class="s6h2 text-custom-black text-xl font-semibold">Caring is the new marketing</h2>
+    <p class="s6p text-gray-500 w-full text-center px-4 py-0 text-sm md:w-2/5 md:text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, provident? Iusto quos explicabo distinctio dolorum quidem unde quibusdam consequuntur soluta! Lorem ipsum dolor sit amet.</p>
+    <!-- cards -->
+    <div class="s6cards flex flex-col md:flex-row gap-20  justify-center items-center md:gap-4 w-screen mt-4 -z-10">
+        <div class="w-52 h-36 relative rounded-lg  flex justify-center items-center">
+            <img src="/src/Images/image 18.png" class="w-full h-full object-cover rounded" alt="">
+            <div class=" s6card absolute top-24 bg-custom-white flex flex-col justify-center items-center py-4 w-44 h-24">
+                <p class="text-sm text-gray-500 w-full text-center" style="font-size: 12px; font-weight: 700;">Creating Streamlined Safeguarding Processes with OneRen</p>
+                <h3 class="text-custom-green font-semibold text-sm">Read More →</h3>
+            </div>
+        </div>
+        <div class="w-52 h-36 relative rounded-lg  flex justify-center items-center">
+            <img src="/src/Images/image 19.png" class="w-full h-full object-cover rounded" alt="">
+            <div class=" s6card absolute top-24 bg-custom-white flex flex-col justify-center items-center py-4 px-4 w-44 h-28">
+                <p class="text-sm text-gray-500 w-full text-center" style="font-size: 12px; font-weight: 700;">What are your safeguarding responsibilities and how can you manage them?</p>
+                <h3 class="text-custom-green  text-sm font-semibold">Read More →</h3>
+            </div>
+        </div>
+        <div class="w-52 h-36 relative rounded-lg  flex justify-center items-center">
+            <img src="/src/Images/image 20.png" class="w-full h-full object-cover rounded" alt="">
+            <div class=" s6card absolute top-24 bg-custom-white flex flex-col justify-center items-center py-4 w-44 h-24">
+                <p class="text-sm text-gray-500 w-full text-center" style="font-size: 12px; font-weight: 700;">Creating Streamlined Safeguarding Processes with OneRen</p>
+                <h3 class="text-custom-green font-semibold text-sm">Read More →</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Section 7 -->
+<section class="section7 flex flex-col justify-center items-center bg-custom-white py-8 gap-8">
+    <h2 class=" text-3xl md:text-5xl text-custom-black font-semibold w-full text-center">Pellentesque suscipit <br> fringilla ibero eu.</h2>
+    <button class="w-32 flex items-center justify-center cursor-pointer h-9 px-3 py-2 bg-custom-green text-white rounded">Get a Demo →</button>
+
+</section>
+ <footer class="flex flex-col md:flex-row  justify-around items-center bg-custom-black py-8">
+    <div class="flex flex-col gap-8 justify-center items-center">
+        <img src="/src/Images/footer-logo.png" class="w-32" alt="">
+        <p class="text-sm text-gray-500">Copyright &copy; 2020 Nexcent ltd. <br> All rights reserved
+        </p>
+        <img src="/src/Images/Social Links.png" alt="">
+    </div>
+    <div class="footer-links flex-wrap flex justify-center items-start gap-12 h-full">
+<div class="flex flex-col justify-center items-start gap-1">
+    <h2 class="text-white font-semibold py-4">Company</h2>
+    <h3 class="text-sm text-gray-400">About us</h3>
+    <h3 class="text-sm text-gray-400">Blog</h3>
+    <h3 class="text-sm text-gray-400">Contact us</h3>
+    <h3 class="text-sm text-gray-400">Pricing</h3>
+    <h3 class="text-sm text-gray-400">Testimonials</h3>
+</div>
+<div class="flex flex-col justify-center items-start gap-1">
+    <h2 class="text-white font-semibold py-4">Support</h2>
+    <h3 class="text-sm text-gray-400">Help center</h3>
+    <h3 class="text-sm text-gray-400">Terms of service</h3>
+    <h3 class="text-sm text-gray-400">Legal</h3>
+    <h3 class="text-sm text-gray-400">Privacy policy</h3>
+    <h3 class="text-sm text-gray-400">Status</h3>
+</div>
+<div class="flex justify-center items-start flex-col gap-4 py-4">
+    <h2 class="text-white  font-semibold">Stay up to data</h2>
+    <input type="text" class="w-52 h-8 px-2 py-2 bg-gray-600 text-white rounded" placeholder="Your email address">
+</div>
+    </div>
+</footer> 
+
+<script src="https://kit.fontawesome.com/8bb923acc4.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
